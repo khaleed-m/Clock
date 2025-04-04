@@ -18,3 +18,6 @@ root.title('Digital Clock')
 
 label=tk.Label(root,font=("calibri",40,"bold"),bg='black',fg='white')
 label.pack()
+
+update_time()
+root.mainloop()
