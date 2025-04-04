@@ -3,3 +3,5 @@
 #root =TK()
 #import tkinter
 #root=tkinter.Tk()
+import tkinter as tk
+import time
