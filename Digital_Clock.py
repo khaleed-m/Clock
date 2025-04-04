@@ -15,3 +15,6 @@ def update_time():
 root=tk.Tk()
 root.title('Digital Clock')
 #root.geometry('350x500')
+
+label=tk.Label(root,font=("calibri",40,"bold"),bg='black',fg='white')
+label.pack()
