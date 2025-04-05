@@ -11,3 +11,8 @@ def update_time():
     
     # Call this function again after 1000ms (1 second)
     label_hr.after(1000, update_time)
+
+    # Initialize Tkinter window
+root = tk.Tk()
+root.title('Digital Clock')
+root.geometry('500x300')  # Adjusted window size
