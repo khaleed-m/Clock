@@ -20,3 +20,9 @@ root.geometry('500x300')  # Adjusted window size
 # Create label for clock display
 label_hr = tk.Label(root, font=("calibri", 40, "bold"), bg='black', fg='white')
 label_hr.place(x=100, y=100, width=300, height=100)  # Centered position
+
+# Start updating time
+update_time()
+
+# Run the Tkinter event loop
+root.mainloop()
